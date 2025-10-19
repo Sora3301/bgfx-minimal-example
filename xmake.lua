@@ -11,7 +11,7 @@ target("Maniazuki")
 
     -- 先单独添加包含 main 函数的文件
     add_files("helloworld_mt.cpp")
-
+    add_headerfiles("logo.h")
     -- 然后，添加所有其他 .cpp 文件，并明确排除 main.cpp
     --add_files("helloworld.cpp")
     set_languages("cxx20")
