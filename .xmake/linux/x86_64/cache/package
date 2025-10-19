@@ -1,0 +1,113 @@
+{
+    glfw = {
+        sysincludedirs = {
+            "/home/sora/.xmake/packages/g/glfw/3.4/4c3c72af70fd4599a3038fc662af9c28/include",
+            "/usr/include/X11/dri"
+        },
+        version = "3.4",
+        defines = "GLFW_INCLUDE_NONE",
+        envs = {
+            PATH = {
+                "/home/sora/.xmake/packages/n/ninja/v1.13.1/e7cc4735aeb048e6870171a23c4ee800/bin",
+                "/home/sora/.xmake/packages/c/cmake/4.0.3/b686e3b7911246e2bfa1b52ae27762fe/bin",
+                "/home/sora/.xmake/packages/p/pkg-config/0.29.2/a0aba256d7674c1bbee15f0ee1534e92/bin",
+                "/home/sora/.xmake/packages/p/pkg-config/0.29.2/a0aba256d7674c1bbee15f0ee1534e92/bin",
+                "/home/sora/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/bin",
+                "/home/sora/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/bin",
+                "/home/sora/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/Scripts"
+            },
+            PYTHONPATH = {
+                "/home/sora/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/lib/python3.13/site-packages"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/sora/.xmake/packages/l/libx11/1.8.12/5b3492e889e848b2b511e3f3031c5538/lib"
+            }
+        },
+        libfiles = {
+            "/home/sora/.xmake/packages/g/glfw/3.4/4c3c72af70fd4599a3038fc662af9c28/lib/libglfw3.a",
+            "/usr/lib/x86_64-linux-gnu/libOpenGL.so"
+        },
+        links = {
+            "glfw3",
+            "OpenGL",
+            "Xrandr",
+            "Xinerama",
+            "Xcursor",
+            "Xrender",
+            "X11",
+            "Xi",
+            "Xfixes",
+            "Xext",
+            "xcb",
+            "Xau",
+            "Xdmcp"
+        },
+        linkdirs = "/home/sora/.xmake/packages/g/glfw/3.4/4c3c72af70fd4599a3038fc662af9c28/lib",
+        license = "zlib",
+        installdir = "/home/sora/.xmake/packages/g/glfw/3.4/4c3c72af70fd4599a3038fc662af9c28",
+        __requirestr = "glfw",
+        syslinks = {
+            "dl",
+            "pthread"
+        },
+        static = true,
+        __enabled = true
+    },
+    bgfx = {
+        sysincludedirs = {
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/include",
+            "/usr/include/X11/dri"
+        },
+        version = "8752",
+        defines = "BX_CONFIG_DEBUG=0",
+        envs = {
+            PATH = {
+                "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/bin",
+                "/home/sora/.xmake/packages/p/pkg-config/0.29.2/a0aba256d7674c1bbee15f0ee1534e92/bin",
+                "/home/sora/.xmake/packages/p/pkg-config/0.29.2/a0aba256d7674c1bbee15f0ee1534e92/bin",
+                "/home/sora/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/bin",
+                "/home/sora/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/bin",
+                "/home/sora/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/Scripts",
+                "/home/sora/.xmake/packages/g/genie/1170/d51ba295cd5245bcbf06e76ea7d88089/bin"
+            },
+            PYTHONPATH = {
+                "/home/sora/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/lib/python3.13/site-packages"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/sora/.xmake/packages/l/libx11/1.8.12/5b3492e889e848b2b511e3f3031c5538/lib"
+            }
+        },
+        libfiles = {
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libbgfxRelease.a",
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libbimgRelease.a",
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libbxRelease.a",
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libfcppRelease.a",
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libbimg_decodeRelease.a",
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libbimg_encodeRelease.a",
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libglsl-optimizerRelease.a",
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libspirv-crossRelease.a",
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libglslangRelease.a",
+            "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib/libspirv-optRelease.a"
+        },
+        links = {
+            "bgfxRelease",
+            "bimgRelease",
+            "bxRelease",
+            "X11",
+            "xcb",
+            "Xau",
+            "Xdmcp"
+        },
+        linkdirs = "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/lib",
+        license = "BSD-2-Clause",
+        installdir = "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8",
+        __requirestr = "bgfx",
+        syslinks = {
+            "GL",
+            "pthread",
+            "dl"
+        },
+        static = true,
+        __enabled = true
+    }
+}

@@ -1,0 +1,15 @@
+{
+    packages = {
+        "/home/sora/.xmake/packages/n/ninja/v1.13.1/e7cc4735aeb048e6870171a23c4ee800",
+        "/home/sora/.xmake/packages/c/cmake/4.0.3/b686e3b7911246e2bfa1b52ae27762fe",
+        "/home/sora/.xmake/packages/u/util-macros/1.20.0/21ebacb0450b4b16b06b586ecc142d3f",
+        "/home/sora/.xmake/packages/o/openssl/1.1.1-w/6c51ab6278e2479b883dffafac69fdaf",
+        "/home/sora/.xmake/packages/c/ca-certificates/20250131/e9ba281ae183402a80dc072d4d571c20",
+        "/home/sora/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf",
+        "/home/sora/.xmake/packages/x/xcb-proto/1.17.0/eafb62cb3f37412ebe648eb0ab4b4b35",
+        "/home/sora/.xmake/packages/l/libpthread-stubs/0.5/e6c09af522624eb1ae863fe21c4aa62c",
+        "/home/sora/.xmake/packages/g/glfw/3.4/4c3c72af70fd4599a3038fc662af9c28",
+        "/home/sora/.xmake/packages/g/genie/1170/d51ba295cd5245bcbf06e76ea7d88089",
+        "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8"
+    }
+}

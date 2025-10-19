@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/sora/develop/bgfx-minimal-example",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-DGLFW_INCLUDE_NONE", "-DBX_CONFIG_DEBUG=0", "-I", "/home/sora/.xmake/packages/g/glfw/3.4/4c3c72af70fd4599a3038fc662af9c28/include", "-I", "/home/sora/.xmake/packages/b/bgfx/8752/e9578941563c4f4795b0a008f27ec4d8/include", "-I", "/usr/include/X11/dri", "-DNDEBUG", "-o", "build/.objs/Maniazuki/linux/x86_64/release/helloworld_mt.cpp.o", "helloworld_mt.cpp"],
+  "file": "helloworld_mt.cpp"
+}]

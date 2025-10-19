@@ -1,0 +1,7 @@
+{
+    cmdlines = {
+        "xmake ",
+        "xmake l /home/sora/.vscode/extensions/tboox.xmake-vscode-2.4.1/assets/default_target.lua",
+        "xmake run Maniazuki"
+    }
+}
