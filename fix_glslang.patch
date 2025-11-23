@@ -1,0 +1,10 @@
+--- bgfx/8752/source/bgfx/3rdparty/glslang/SPIRV/SpvBuilder.h	2025-11-23 10:47:40.529675902 +0800
++++ bgfx/8752/source/bgfx/3rdparty/glslang/SPIRV/SpvBuilder2.h	2025-11-23 11:22:51.608345306 +0800
+@@ -63,6 +63,7 @@
+ #include <stack>
+ #include <unordered_map>
+ #include <map>
++#include <cstdint>
+ 
+ namespace spv {
+ 
